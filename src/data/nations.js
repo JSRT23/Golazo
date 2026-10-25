@@ -1,0 +1,61 @@
+// Selecciones para las preguntas de banderas.
+// Las imágenes salen de flagcdn.com (CDN gratuito, sin API key).
+export const NATIONS = [
+  // CONMEBOL
+  { code: 'ar', name: 'Argentina', conf: 'CONMEBOL' },
+  { code: 'br', name: 'Brasil', conf: 'CONMEBOL' },
+  { code: 'uy', name: 'Uruguay', conf: 'CONMEBOL' },
+  { code: 'co', name: 'Colombia', conf: 'CONMEBOL' },
+  { code: 'cl', name: 'Chile', conf: 'CONMEBOL' },
+  { code: 'pe', name: 'Perú', conf: 'CONMEBOL' },
+  { code: 'ec', name: 'Ecuador', conf: 'CONMEBOL' },
+  { code: 'py', name: 'Paraguay', conf: 'CONMEBOL' },
+  { code: 've', name: 'Venezuela', conf: 'CONMEBOL' },
+  { code: 'bo', name: 'Bolivia', conf: 'CONMEBOL' },
+  // CONCACAF
+  { code: 'mx', name: 'México', conf: 'CONCACAF' },
+  { code: 'us', name: 'Estados Unidos', conf: 'CONCACAF' },
+  { code: 'ca', name: 'Canadá', conf: 'CONCACAF' },
+  { code: 'cr', name: 'Costa Rica', conf: 'CONCACAF' },
+  { code: 'pa', name: 'Panamá', conf: 'CONCACAF' },
+  { code: 'jm', name: 'Jamaica', conf: 'CONCACAF' },
+  { code: 'hn', name: 'Honduras', conf: 'CONCACAF' },
+  // UEFA
+  { code: 'es', name: 'España', conf: 'UEFA' },
+  { code: 'fr', name: 'Francia', conf: 'UEFA' },
+  { code: 'de', name: 'Alemania', conf: 'UEFA' },
+  { code: 'it', name: 'Italia', conf: 'UEFA' },
+  { code: 'pt', name: 'Portugal', conf: 'UEFA' },
+  { code: 'nl', name: 'Países Bajos', conf: 'UEFA' },
+  { code: 'be', name: 'Bélgica', conf: 'UEFA' },
+  { code: 'hr', name: 'Croacia', conf: 'UEFA' },
+  { code: 'gb-eng', name: 'Inglaterra', conf: 'UEFA' },
+  { code: 'gb-sct', name: 'Escocia', conf: 'UEFA' },
+  { code: 'gb-wls', name: 'Gales', conf: 'UEFA' },
+  { code: 'ch', name: 'Suiza', conf: 'UEFA' },
+  { code: 'dk', name: 'Dinamarca', conf: 'UEFA' },
+  { code: 'se', name: 'Suecia', conf: 'UEFA' },
+  { code: 'pl', name: 'Polonia', conf: 'UEFA' },
+  { code: 'rs', name: 'Serbia', conf: 'UEFA' },
+  { code: 'at', name: 'Austria', conf: 'UEFA' },
+  { code: 'no', name: 'Noruega', conf: 'UEFA' },
+  // CAF
+  { code: 'ma', name: 'Marruecos', conf: 'CAF' },
+  { code: 'sn', name: 'Senegal', conf: 'CAF' },
+  { code: 'ng', name: 'Nigeria', conf: 'CAF' },
+  { code: 'gh', name: 'Ghana', conf: 'CAF' },
+  { code: 'cm', name: 'Camerún', conf: 'CAF' },
+  { code: 'eg', name: 'Egipto', conf: 'CAF' },
+  { code: 'ci', name: 'Costa de Marfil', conf: 'CAF' },
+  { code: 'dz', name: 'Argelia', conf: 'CAF' },
+  { code: 'tn', name: 'Túnez', conf: 'CAF' },
+  // AFC
+  { code: 'jp', name: 'Japón', conf: 'AFC' },
+  { code: 'kr', name: 'Corea del Sur', conf: 'AFC' },
+  { code: 'sa', name: 'Arabia Saudita', conf: 'AFC' },
+  { code: 'au', name: 'Australia', conf: 'AFC' },
+  { code: 'ir', name: 'Irán', conf: 'AFC' },
+  { code: 'qa', name: 'Catar', conf: 'AFC' },
+]
+
+export const flagUrl = (code, width = 320) => `https://flagcdn.com/w${width}/${code}.png`
